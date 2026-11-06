@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DAKSH Raghav's personal web development portfolio.">
+  <title>DAKSH Raghav | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#top">DAKSH<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1 id="hero-title">DAKSH <span>Raghav</span></h1>
+        <h2>Future Full Stack Developer</h2>
+        <p class="hero-description">I’m a B.Tech CSE student learning to build clean, useful and responsive web experiences.</p>
+        <a class="button" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration representing a web developer">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="avatar">
+          <div class="avatar-hair"></div>
+          <div class="avatar-face">
+            <span class="eye eye-left"></span><span class="eye eye-right"></span>
+            <span class="smile"></span>
+          </div>
+          <div class="avatar-neck"></div>
+          <div class="avatar-shirt"></div>
+        </div>
+        <span class="code-chip chip-one">&lt;/&gt;</span>
+        <span class="code-chip chip-two">{ }</span>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container narrow">
+        <p class="section-kicker">A LITTLE INTRODUCTION</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p class="section-text">I'm DAKSH Raghav, a B.Tech Computer Science and Engineering student. I'm currently building my foundation in web development and programming. I enjoy learning how websites work and turning ideas into simple, accessible and responsive interfaces. This portfolio is a part of my web development lab work and a place to showcase my progress.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-kicker">WHAT I'M LEARNING</p>
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-icon">5</span><h3>HTML5</h3><p>Semantic page structure</p></article>
+          <article class="skill-card"><span class="skill-icon">#</span><h3>CSS3</h3><p>Layouts and responsive styling</p></article>
+          <article class="skill-card"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Currently learning the basics</p></article>
+          <article class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>Python</h3><p>Programming fundamentals</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <p class="section-kicker">SOME THINGS I'VE BUILT</p>
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one"><span>01</span><strong>WEB</strong></div>
+            <div class="project-content"><h3>Personal Portfolio</h3><p>A responsive portfolio website built with semantic HTML and modern CSS.</p><span class="tag">HTML · CSS</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-two"><span>02</span><strong>PY</strong></div>
+            <div class="project-content"><h3>Python Practice Programs</h3><p>A collection of beginner programs covering conditions, loops and classes.</p><span class="tag">Python</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-three"><span>03</span><strong>UI</strong></div>
+            <div class="project-content"><h3>Mini Web Experiments</h3><p>Small practice layouts created while exploring web design fundamentals.</p><span class="tag">HTML · CSS</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div>
+          <p class="section-kicker">LET'S CONNECT</p>
+          <h2 class="section-title">Contact <span>Me</span></h2>
+          <p class="section-text">Have a question or want to discuss a project? Send me a message using the form.</p>
+          <p class="contact-note">Your message can be prepared here. A server or form service is required to deliver submissions.</p>
+        </div>
+        <form class="contact-form" action="#" method="get">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" autocomplete="name" required minlength="2">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" autocomplete="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required minlength="10"></textarea>
+          <button class="button submit-button" type="submit">Send Message <span aria-hidden="true">→</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="footer-logo" href="#top">DAKSH<span>.</span></a>
+      <p>© 2026 DAKSH Raghav. Built with HTML &amp; CSS.</p>
+      <a class="back-to-top" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
